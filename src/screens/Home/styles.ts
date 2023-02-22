@@ -42,7 +42,10 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
-    marginTop: 32
+    marginTop: 32,
+    paddingBottom: 20,
+    borderBottomWidth: 1,
+    borderBottomColor: '#333333'
   },
   infoList: {
     flexDirection: 'row',
