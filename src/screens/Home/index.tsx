@@ -7,6 +7,7 @@ import { v4 } from 'uuid';
 
 import { styles } from './styles';
 import { Task } from "../../components/Task";
+import { EmptyList } from "../../components/EmptyList";
 
 
 export interface TasksProps {
@@ -111,6 +112,9 @@ export function Home() {
           )}
           style={{ marginTop: 20 }}
           showsVerticalScrollIndicator={false}
+          ListEmptyComponent={
+            <EmptyList />
+          }
         />
 
       </View>
